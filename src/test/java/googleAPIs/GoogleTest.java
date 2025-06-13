@@ -1,6 +1,5 @@
 package googleAPIs;
 import static io.restassured.RestAssured.given;
-
 import org.rsa.payloads.GoogleMapPayLoads;
 import org.testng.Assert;
 import org.testng.annotations.Test;

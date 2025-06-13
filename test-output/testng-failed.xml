@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="googleAPIs.GoogleTest">
+      <class name="org.rsa.jiraAPI.JiraAPI">
         <methods>
-          <include name="addLocation"/>
+          <include name="jiraAPIAutomation"/>
         </methods>
-      </class> <!-- googleAPIs.GoogleTest -->
+      </class> <!-- org.rsa.jiraAPI.JiraAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
